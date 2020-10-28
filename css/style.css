@@ -87,3 +87,33 @@ button:hover {
   background: #fff;
   color: #e8168b;
 }
+
+/* Dropdown-1 */
+.with-dropdown {
+  position: relative;
+}
+
+.with-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: -50px;
+  width: 150px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 4px;
+}
+
+.dropdown-menu li {
+  position: relative;
+  display: block;
+  line-height: 60px;
+}
+
+.dropdown-menu li .label {
+  position: absolute;
+  top: -12px;
+  right: 30px;
+  font-weight: 700;
+  color: #e8168b;
+}
