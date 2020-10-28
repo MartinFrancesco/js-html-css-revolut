@@ -1,0 +1,89 @@
+/* GENERAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITIES */
+
+/* Layout */
+.main-menu {
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  line-height: 80px;
+  margin: auto;
+}
+
+ul li {
+  display: inline-flex;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: grey;
+}
+
+ul li a:hover, ul li a:focus {
+  color: #000;
+}
+
+/* Left */
+.menu-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-left li {
+  margin-right: 30px;
+}
+
+.menu-left ul li a img {
+  max-width: 90px;
+}
+
+/* Right */
+.menu-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-right li {
+  margin-left: 30px;
+}
+
+.menu-right li a i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background: #e8168b;
+  cursor: pointer;
+  transition: 2s;
+}
+
+button:hover {
+  background: #fff;
+  color: #e8168b;
+}
