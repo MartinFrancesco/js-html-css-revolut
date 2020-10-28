@@ -10,6 +10,9 @@ body {
 }
 
 /* UTILITIES */
+.ml-30 {
+  margin-left: 30px;
+}
 
 /* Layout */
 .main-menu {
@@ -98,22 +101,34 @@ button:hover {
   position: absolute;
   top: 60px;
   right: -50px;
-  width: 150px;
+  width: 300px;
   border: none;
   box-shadow: 2px 2px 2px 2px grey;
   border-radius: 4px;
 }
 
-.dropdown-menu li {
+.dropdown-menu li, .dropdown-menu-2 li {
   position: relative;
   display: block;
   line-height: 60px;
 }
 
-.dropdown-menu li .label {
+.dropdown-menu li .label, .dropdown-menu-2 li .label {
   position: absolute;
   top: -12px;
-  right: 30px;
+  left: 30px;
   font-weight: 700;
   color: #e8168b;
+}
+
+/* Dropdown-2 */
+.with-dropdown .dropdown-menu-2 {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: -50px;
+  width: 150px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 4px;
 }
